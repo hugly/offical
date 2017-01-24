@@ -1,0 +1,520 @@
+/*
+@ project:hugly$64617842@qq.com
+@ date:2017-01-24
+*/
+.pro-intro {
+  width: 100%;
+  height: 440px;
+  background-image: url('images/bannerbg.jpg');
+  background-size: contain;
+}
+.pro-intro .c-width {
+  position: relative;
+  z-index: 9;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-intro .c-width:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-intro .c-width .intro-left {
+  float: left;
+  width: 178px;
+  padding: 0 31px;
+  height: 440px;
+  background-color: rgba(1, 76, 96, 0.9);
+}
+.pro-intro .c-width .intro-left ul {
+  position: relative;
+  padding: 58px 0;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-intro .c-width .intro-left ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-intro .c-width .intro-left ul li {
+  float: left;
+  cursor: pointer;
+  width: 178px;
+  height: 107px;
+  line-height: 107px;
+  border-bottom: 1px dashed #fff;
+}
+.pro-intro .c-width .intro-left ul li em {
+  display: inline-block;
+  background-color: #fff;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.pro-intro .c-width .intro-left ul li span {
+  color: #fff;
+  font-size: 14px;
+}
+.pro-intro .c-width .intro-left ul li:last-child {
+  border-bottom: none;
+}
+.pro-intro .c-width .intro-left ul li.active em,
+.pro-intro .c-width .intro-left ul li:hover em {
+  background-color: #84cde1;
+}
+.pro-intro .c-width .intro-left ul li.active span,
+.pro-intro .c-width .intro-left ul li:hover span {
+  color: #84cde1;
+}
+.pro-intro .c-width .intro-right {
+  float: left;
+  width: 960px;
+  height: 300px;
+}
+.pro-intro .c-width .intro-right ul {
+  padding: 80px;
+  width: 800px;
+  height: 140px;
+}
+.pro-intro .c-width .intro-right ul li {
+  display: none;
+}
+.pro-intro .c-width .intro-right ul li h3 {
+  color: #fff;
+  height: 80px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: normal;
+}
+.pro-intro .c-width .intro-right ul li .type-list {
+  width: 800px;
+  height: 30px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-intro .c-width .intro-right ul li .type-list:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-intro .c-width .intro-right ul li .type-list b {
+  float: left;
+  height: 28px;
+  line-height: 28px;
+  color: #fff;
+  padding: 0 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.pro-intro .c-width .intro-right ul li .type-list a {
+  height: 30px;
+  line-height: 30px;
+  color: #84cde1;
+  margin-left: 100px;
+}
+.pro-intro .c-width .intro-right ul li span {
+  color: #fff;
+  line-height: 30px;
+  font-size: 20px;
+}
+.pro-intro .c-width .intro-right ul li p {
+  color: #fff;
+  line-height: 20px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.pro-intro .c-width .operate {
+  float: left;
+  width: 800px;
+  padding: 0 80px;
+  height: 140px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-intro .c-width .operate:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-intro .c-width .operate a {
+  float: left;
+  width: 256px;
+  height: 68px;
+  line-height: 68px;
+  text-align: center;
+  border: 2px solid #84cde1;
+  color: #84cde1;
+  margin-right: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.pro-intro .c-width .operate a:hover,
+.pro-intro .c-width .operate a.active {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+  border-color: #fff;
+}
+.pro-naver {
+  width: 100%;
+  height: 78px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+.pro-naver .p-width {
+  position: relative;
+  height: 48px;
+  padding-top: 31px;
+}
+.pro-naver .p-width ul {
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-naver .p-width ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-naver .p-width ul li {
+  float: left;
+  height: 47px;
+  line-height: 47px;
+  padding: 0 20px;
+  margin: 0 17px;
+  border-bottom: 1px solid #eee;
+}
+.pro-naver .p-width ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #101010;
+  font-size: 14px;
+}
+.pro-naver .p-width ul li.active,
+.pro-naver .p-width ul li:hover {
+  border-bottom-color: #84cde1;
+}
+.pro-naver .p-width ul li.active a,
+.pro-naver .p-width ul li:hover a {
+  color: #84cde1;
+}
+.pro-naver-copy {
+  width: 100%;
+  height: 78px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  display: none;
+}
+.pro-item {
+  width: 100%;
+  padding: 60px 0;
+  position: relative;
+  background-color: #eee;
+}
+.pro-item .p-width {
+  overflow: hidden;
+}
+.pro-item .p-width .item-title {
+  width: 1200px;
+  height: 60px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-item .p-width .item-title:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-item .p-width .item-title em {
+  float: left;
+  width: 12px;
+  height: 12px;
+  background-color: #84cde1;
+  border-radius: 50%;
+  margin: 24px 12px;
+}
+.pro-item .p-width .item-title span {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  color: #101010;
+  font-size: 16px;
+}
+.pro-item .p-width .intro {
+  display: none;
+}
+.pro-item .p-width .intro p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #505050;
+  margin-bottom: 10px;
+}
+.pro-item .p-width .fun-box {
+  display: none;
+  width: 1400px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-item .p-width .fun-box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-item .p-width .fun-box .fun-item {
+  float: left;
+  width: 210px;
+  height: 200px;
+  margin-right: 120px;
+  overflow: hidden;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-item .p-width .fun-box .fun-item:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-item .p-width .fun-box .fun-item i {
+  float: left;
+  width: 210px;
+  height: 120px;
+  line-height: 120px;
+  font-size: 60px;
+  text-align: center;
+  color: #84cde1;
+}
+.pro-item .p-width .fun-box .fun-item span {
+  float: left;
+  width: 210px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #101010;
+  font-size: 14px;
+}
+.pro-item .p-width .fun-box .fun-item p {
+  color: #505050;
+  width: 210px;
+  line-height: 20px;
+  text-align: center;
+}
+.pro-item .p-width .price-box {
+  display: none;
+  width: 1160px;
+  padding: 0 20px;
+}
+.pro-item .p-width .price-box ul {
+  width: 1160px;
+  position: relative;
+}
+.pro-item .p-width .price-box ul li {
+  width: 1160px;
+  height: 40px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-item .p-width .price-box ul li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-item .p-width .price-box ul li em {
+  float: left;
+  color: #505050;
+  font-size: 14px;
+}
+.pro-item .p-width .price-box ul li span {
+  float: right;
+  color: #505050;
+  font-size: 14px;
+}
+.pro-item .p-width .jiagou img,
+.pro-item .p-width .yewu img {
+  display: block;
+  width: 1200px;
+}
+.pro-item .p-width .yewu-box {
+  width: 1260px;
+  position: relative;
+}
+.pro-item .p-width .yewu-box ul {
+  width: 1260px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-item .p-width .yewu-box ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-item .p-width .yewu-box ul li {
+  float: left;
+  width: 320px;
+  margin-right: 100px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-item .p-width .yewu-box ul li:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-item .p-width .yewu-box ul li .img-box {
+  float: left;
+  width: 310px;
+  height: 310px;
+  border: 5px solid #cecece;
+  border-radius: 50%;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.pro-item .p-width .yewu-box ul li .img-box img {
+  display: block;
+  width: 100%;
+}
+.pro-item .p-width .yewu-box ul li span {
+  float: left;
+  width: 320px;
+  height: 30px;
+  line-height: 30px;
+  color: #101010;
+  text-align: center;
+  font-size: 14px;
+}
+.pro-item .p-width .yewu-box ul li p {
+  float: left;
+  width: 320px;
+  color: #505050;
+  text-align: center;
+  line-height: 20px;
+}
+.pro-item .p-width .case {
+  width: 1224px;
+  position: relative;
+}
+.pro-item .p-width .case ul {
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-item .p-width .case ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-item .p-width .case ul li {
+  float: left;
+  width: 280px;
+  margin-right: 26px;
+}
+.pro-item .p-width .case ul li img {
+  display: block;
+  width: 280px;
+}
+.pro-item .p-width .overview {
+  width: 1200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.pro-item .p-width .overview .title {
+  background-color: #84cde1;
+  padding: 40px 0;
+}
+.pro-item .p-width .overview .title ul {
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.pro-item .p-width .overview .title ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pro-item .p-width .overview .title ul li {
+  float: left;
+  width: 260px;
+  margin: 0 70px;
+  text-align: center;
+}
+.pro-item .p-width .overview .title ul li h3 {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 10px;
+}
+.pro-item .p-width .overview .title ul li span {
+  display: inline-block;
+  width: 260px;
+  line-height: 20px;
+  color: #fff;
+}
+.pro-item .p-width .overview .stand {
+  width: 1200px;
+  background-color: #fff;
+}
+.pro-item .p-width .overview .stand h3 {
+  width: 1200px;
+  height: 30px;
+  line-height: 30px;
+  padding-top: 30px;
+  text-align: center;
+  color: #101010;
+  font-size: 18px;
+}
+.pro-item .p-width .overview .stand p {
+  display: inline-block;
+  width: 1200px;
+  height: 20px;
+  line-height: 20px;
+  color: #505050;
+  text-align: center;
+}
+.pro-item .p-width .overview .stand .i-img {
+  padding: 30px 190px;
+}
+.pro-item .p-width .overview .stand .i-img img {
+  display: inline-block;
+  height: 177px;
+  margin: 0 40px;
+}

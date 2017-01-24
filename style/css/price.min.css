@@ -1,0 +1,122 @@
+/*
+@ project:hugly$64617842@qq.com
+@ date:2017-01-24
+*/
+.price-title {
+  height: 70px;
+  line-height: 70px;
+  background-color: #f4f4f4;
+}
+.price-title h3 {
+  color: #101010;
+}
+.fun-nav {
+  width: 100%;
+  height: 70px;
+  background-color: #f4f4f4;
+  position: fixed;
+  left: 0;
+  top: 80px;
+  z-index: 999;
+}
+.fun-nav ul {
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.fun-nav ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.fun-nav ul li {
+  cursor: pointer;
+  float: left;
+  height: 68px;
+  padding: 0 10px;
+  margin: 0 20px;
+  font-size: 14px;
+  line-height: 70px;
+  border-bottom: 2px solid #f4f4f4;
+}
+.fun-nav ul li.active,
+.fun-nav ul li:hover {
+  border-bottom-color: #84cde1;
+  color: #84cde1;
+}
+.price-box table {
+  margin: 20px 0;
+}
+.price-box table thead {
+  background-color: #cecece;
+}
+.price-box table tbody tr:nth-child(even) {
+  background-color: #e4e3e3;
+}
+.price-box table tr th,
+.price-box table tr td {
+  padding: 20px 10px;
+}
+.price-box table tr th p,
+.price-box table tr td p {
+  line-height: 20px;
+}
+.price-box table tr th p strong,
+.price-box table tr td p strong {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.fun-item {
+  margin: 20px 0;
+}
+.fun-item .item-title {
+  width: 1200px;
+  height: 60px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.fun-item .item-title:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.fun-item .item-title em {
+  float: left;
+  width: 12px;
+  height: 12px;
+  background-color: #84cde1;
+  border-radius: 50%;
+  margin: 24px 12px;
+}
+.fun-item .item-title span {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  color: #101010;
+  font-size: 16px;
+}
+.fun-item table thead {
+  background-color: #cecece;
+}
+.fun-item table tbody tr:nth-child(even) {
+  background-color: #e4e3e3;
+}
+.fun-item table tr th,
+.fun-item table tr td {
+  padding: 20px 10px;
+  text-align: center;
+}
+.fun-item table tr th p,
+.fun-item table tr td p {
+  line-height: 20px;
+}
+.fun-item table tr th p strong,
+.fun-item table tr td p strong {
+  font-size: 16px;
+  font-weight: bolder;
+}

@@ -1,0 +1,45 @@
+@import "lib.less";
+
+.price-title{ height: 70px; line-height: 70px; background-color: #f4f4f4;
+  h3{ color: #101010; }
+}
+.fun-nav{ width: 100%; height: 70px; background-color: #f4f4f4; position: fixed; left: 0; top: 80px; z-index: 999;
+  ul{ position: relative; .cf();
+    li{ cursor: pointer; float: left; height: 68px; padding: 0 10px; margin: 0 20px; font-size: 14px; line-height: 70px; border-bottom: 2px solid #f4f4f4; }
+    li.active,li:hover{ border-bottom-color: #84cde1; color: #84cde1;  }
+  }
+}
+.price-box{
+  table{ margin: 20px 0;
+    thead{ background-color: #cecece; }
+    tbody{
+      tr:nth-child(even){ background-color: #e4e3e3;}
+    }
+    tr{
+      th,td{ padding: 20px 10px;
+        p{ line-height: 20px;
+          strong{ font-size: 16px; font-weight: bolder; }
+        }
+      }
+    }
+  }
+}
+.fun-item{ margin: 20px 0;
+  .item-title{ width: 1200px; height: 60px; position: relative; .cf();
+    em{ float: left; width: 12px; height: 12px; background-color: #84cde1; border-radius: 50%; margin: 24px 12px; }
+    span{ float: left; height: 60px; line-height: 60px; color: #101010; font-size: 16px; }
+  }
+  table{
+    thead{ background-color: #cecece; }
+    tbody{
+      tr:nth-child(even){ background-color: #e4e3e3;}
+    }
+    tr{
+      th,td{ padding: 20px 10px; text-align: center;
+        p{ line-height: 20px;
+          strong{ font-size: 16px; font-weight: bolder; }
+        }
+      }
+    }
+  }
+}

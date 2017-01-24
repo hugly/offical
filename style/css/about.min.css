@@ -1,0 +1,620 @@
+/*
+@ project:hugly$64617842@qq.com
+@ date:2017-01-24
+*/
+.banner {
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.banner:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.banner img {
+  float: left;
+  width: 100%;
+}
+.about-item {
+  padding: 40px 0;
+}
+.about-item .c-info {
+  padding: 20px 0;
+}
+.about-item .c-info p {
+  line-height: 30px;
+  font-size: 14px;
+  color: #101010;
+  margin-bottom: 10px;
+  text-indent: 25px;
+}
+.about-item .qualification {
+  width: 1200px;
+  position: relative;
+  text-align: center;
+  margin-top: 40px;
+}
+.about-item .qualification .img-item {
+  display: inline-block;
+  width: 336px;
+  height: 236px;
+  border: 15px solid #bababa;
+}
+.about-item .qualification .img-item img {
+  display: block;
+  width: 306px;
+  height: 206px;
+  margin: 15px;
+}
+.about-item .qualification .img-item:first-child {
+  margin-right: 20px;
+}
+.about-item .b-list {
+  width: 1200px;
+  margin-top: 20px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.about-item .b-list:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.about-item .b-list .b-item {
+  float: left;
+  width: 100px;
+  margin: 20px 50px;
+}
+.about-item .b-list .b-item img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 0 10px;
+}
+.about-item .b-list .b-item span {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+.about-item .channel-box {
+  width: 1200px;
+  position: relative;
+  margin-top: 20px;
+}
+.about-item .channel-box ul {
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.about-item .channel-box ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.about-item .channel-box ul .c-item {
+  float: left;
+  width: 250px;
+  margin-bottom: 20px;
+}
+.about-item .channel-box ul .c-item .img-box {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
+.about-item .channel-box ul .c-item .img-box img {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+.about-item .channel-box ul .c-item span {
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #101010;
+}
+.about-item .channel-box ul .line {
+  float: left;
+  width: 225px;
+  height: 0;
+  border-bottom: 1px dashed #cecece;
+  margin-top: 125px;
+}
+.about-item .channel-box ul .s-line {
+  position: absolute;
+  right: 0;
+  top: 125px;
+  width: 0;
+  height: 313px;
+  border-right: 1px dashed #cecece;
+}
+.about-item .rules {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+.about-item .rules p {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #505050;
+  text-align: center;
+}
+.about-item .rules a {
+  display: inline-block;
+  width: 316px;
+  height: 58px;
+  line-height: 58px;
+  margin: 20px 0;
+  text-align: center;
+  border: 2px solid #86d4eb;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #84cde1;
+}
+.about-item .rules a:hover {
+  background-color: #86d4eb;
+  color: #fff;
+}
+.about-item .news-list {
+  width: 1200px;
+  position: relative;
+}
+.about-item .news-list ul {
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.about-item .news-list ul:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.about-item .news-list ul li {
+  float: left;
+  padding: 10px 0;
+  border-bottom: 1px solid #cecece;
+}
+.about-item .news-list ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.about-item .news-list ul li a .item-title {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.about-item .news-list ul li a .item-title:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.about-item .news-list ul li a .item-title h3 {
+  float: left;
+  width: 840px;
+  height: 50px;
+  line-height: 50px;
+  color: #101010;
+  font-size: 16px;
+  font-weight: bolder;
+  white-space: nowrap;
+  overflow: hidden;
+  word-wrap: normal;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.about-item .news-list ul li a .item-title .item-info {
+  float: right;
+  line-height: 50px;
+}
+.about-item .news-list ul li a .item-title .item-info span {
+  display: inline-block;
+  color: #bababa;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.about-item .news-list ul li a .item-detail {
+  width: 1200px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.about-item .news-list ul li a .item-detail:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.about-item .news-list ul li a .item-detail .d-info {
+  float: left;
+  width: 830px;
+  padding-right: 10px;
+}
+.about-item .news-list ul li a .item-detail .d-info p {
+  color: #505050;
+  line-height: 22px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-indent: 25px;
+}
+.about-item .news-list ul li a .item-detail .d-img {
+  float: left;
+  width: 360px;
+  height: 200px;
+}
+.about-item .news-list ul li a .item-detail .d-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.about-item .news-list ul li:hover a .item-title h3 {
+  color: #86d4eb;
+}
+.about-item .news-title {
+  width: 1200px;
+  height: 40px;
+  position: relative;
+  border-bottom: 1px solid #eee;
+  min-height: 1px;
+  zoom: 1;
+}
+.about-item .news-title:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.about-item .news-title a {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  color: #101010;
+  font-size: 14px;
+}
+.about-item .news-title span {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+.about-item .news-detail {
+  width: 1200px;
+  position: relative;
+  margin-top: 40px;
+}
+.about-item .news-detail h3 {
+  width: 1200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  color: #101010;
+}
+.about-item .news-detail .news-info {
+  height: 40px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.about-item .news-detail .news-info:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.about-item .news-detail .news-info span {
+  font-size: 14px;
+  line-height: 40px;
+  color: #bababa;
+  margin-right: 10px;
+}
+.about-item .news-detail .part {
+  width: 1200px;
+  position: relative;
+}
+.about-item .news-detail .part img {
+  display: block;
+  width: 100%;
+}
+.about-item .news-detail .part p {
+  width: 1200px;
+  line-height: 20px;
+  text-indent: 25px;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #101010;
+  word-break: break-all;
+  word-wrap: break-word;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.about-item .news-detail .part p:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.about-item .news-detail .part p img {
+  float: right;
+  width: 360px;
+  height: 200px;
+}
+.about-item:nth-child(even) {
+  background-color: #eee;
+}
+.process {
+  width: 100%;
+  position: relative;
+  padding: 40px 0;
+}
+.process div.left .r-box {
+  padding-left: 20px;
+}
+.process div.left .r-box b {
+  text-align: left;
+}
+.process div.left .r-box p {
+  text-align: left;
+}
+.process div.left .time {
+  text-align: left;
+  padding-right: 50px;
+}
+.process div.left .event {
+  text-align: left;
+  padding-left: 50px;
+}
+.process div.right .r-box {
+  padding-right: 20px;
+}
+.process div.right .r-box b {
+  text-align: right;
+}
+.process div.right .r-box p {
+  text-align: right;
+}
+.process div.right .time {
+  text-align: right;
+  padding-left: 50px;
+}
+.process div.right .event {
+  text-align: right;
+  padding-right: 50px;
+}
+.process .list {
+  width: 100%;
+  height: 160px;
+  position: relative;
+  overflow: hidden;
+  min-height: 1px;
+  zoom: 1;
+}
+.process .list:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.process .list .time {
+  float: left;
+  width: 520px;
+  height: 100%;
+}
+.process .list .time span {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 18px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #00a0e9;
+  color: #fff;
+}
+.process .list i.line {
+  float: left;
+  display: inline-block;
+  width: 10px;
+  border-right: 1px solid #cecece;
+  height: 100%;
+  margin: 0 28px 0 20px;
+  position: relative;
+}
+.process .list i.line b {
+  display: inline-block;
+  position: absolute;
+  left: -1px;
+  top: 28px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #cecece;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.process .list .event {
+  float: left;
+  width: 520px;
+  height: 100%;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.process .list .event:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.process .list .event img {
+  float: left;
+  width: 240px;
+  height: 160px;
+}
+.process .list .event .r-box {
+  float: left;
+  width: 260px;
+  height: 160px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.process .list .event .r-box:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.process .list .event .r-box span {
+  float: left;
+  width: 260px;
+  height: 30px;
+  margin-top: 26px;
+  margin-bottom: 10px;
+  position: relative;
+  min-height: 1px;
+  zoom: 1;
+}
+.process .list .event .r-box span:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.process .list .event .r-box span b {
+  float: left;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  color: #101010;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.process .list .event .r-box span i {
+  float: left;
+  width: 160px;
+  height: 0;
+  border-bottom: 1px dashed #bababa;
+  margin-top: 14px;
+}
+.process .list .event .r-box p {
+  float: left;
+  width: 260px;
+  line-height: 20px;
+  color: #505050;
+  font-size: 17px;
+  font-weight: normal;
+}
+.mKeBanner,
+.mKeBanner div {
+  text-align: center;
+}
+.imageflow img {
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.imageflow {
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  visibility: hidden;
+  width: 1200px;
+  margin: 0 auto;
+}
+.imageflow img {
+  border: none;
+  position: absolute;
+  top: 0px;
+  visibility: hidden;
+  -ms-interpolation-mode: bicubic;
+}
+.imageflow p {
+  margin: 0 auto;
+  text-align: center;
+}
+.imageflow .loading {
+  border: 1px solid #ccc;
+  height: 15px;
+  left: 50%;
+  margin-left: -106px;
+  padding: 5px;
+  position: relative;
+  visibility: visible;
+  width: 200px;
+}
+.imageflow .loading_bar {
+  background: #ccc;
+  height: 15px;
+  visibility: visible;
+  width: 1%;
+}
+.imageflow .caption {
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  z-index: 10000;
+}
+.imageflow .scrollbar {
+  border-bottom: 1px solid #b3b3b3;
+  position: relative;
+  visibility: hidden;
+  z-index: 10001;
+  height: 1px;
+}
+.imageflow .slider {
+  background-image: url(../../Images/Index/slider.png);
+  background-repeat: no-repeat;
+  height: 14px;
+  margin: -6px 0 0 -7px;
+  position: absolute;
+  width: 14px;
+  z-index: 10002;
+}
+.imageflow .images {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.imageflow .button {
+  cursor: pointer;
+  height: 17px;
+  position: relative;
+  width: 17px;
+}
+.imageflow .previous {
+  background: url(../../Images/Index/button_left.png) top left no-repeat;
+  float: left;
+  margin: -7px 0 0 -30px;
+}
+.imageflow .next {
+  background: url(../../Images/Index/button_right.png) top left no-repeat;
+  float: right;
+  margin: -7px -30px 0 30px;
+}
